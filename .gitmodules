@@ -1,0 +1,3 @@
+[submodule "terraria-external/osmium"]
+	path = terraria-external/osmium
+	url = git@github.com:cragson/osmium

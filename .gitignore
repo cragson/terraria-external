@@ -1,0 +1,11 @@
+**/.vs/
+**/Debug/
+**/Release/
+**/x64/
+
+*.exe
+*.dll
+*.idb
+*.ct
+*.rcnet
+*.zip

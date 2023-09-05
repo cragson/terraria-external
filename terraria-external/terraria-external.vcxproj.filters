@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="osmium">
+      <UniqueIdentifier>{75006825-8656-4606-a922-4de452c7b85a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files\cheat">
+      <UniqueIdentifier>{826568f9-d058-42fd-a12a-a58e40599310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files\sdk">
+      <UniqueIdentifier>{a428611b-43a9-44b3-8e49-a03a979a9223}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files\cheat\features">
+      <UniqueIdentifier>{7a6c502c-fbd8-4e49-b90e-6c67769bc6c8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>files</Filter>
+    </ClCompile>
+    <ClCompile Include="osmium\Memory\Hook\hook.cpp">
+      <Filter>osmium</Filter>
+    </ClCompile>
+    <ClCompile Include="osmium\Memory\Image_x64\image_x64.cpp">
+      <Filter>osmium</Filter>
+    </ClCompile>
+    <ClCompile Include="osmium\Memory\Image_x86\image_x86.cpp">
+      <Filter>osmium</Filter>
+    </ClCompile>
+    <ClCompile Include="osmium\Overlay\overlay.cpp">
+      <Filter>osmium</Filter>
+    </ClCompile>
+    <ClCompile Include="osmium\Memory\Process\process.cpp">
+      <Filter>osmium</Filter>
+    </ClCompile>
+    <ClCompile Include="osmium\Testing\test_cheat.cpp">
+      <Filter>osmium</Filter>
+    </ClCompile>
+    <ClCompile Include="osmium\Testing\test_overlay.cpp">
+      <Filter>osmium</Filter>
+    </ClCompile>
+    <ClCompile Include="terraria_cheat.cpp">
+      <Filter>files\cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_disable_consume.cpp">
+      <Filter>files\cheat\features</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_godmode.cpp">
+      <Filter>files\cheat\features</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_key.cpp">
+      <Filter>files\cheat\features</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_max_stat.cpp">
+      <Filter>files\cheat\features</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_tp_enemies.cpp">
+      <Filter>files\cheat\features</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_tp_npc.cpp">
+      <Filter>files\cheat\features</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_weak_enemies.cpp">
+      <Filter>files\cheat\features</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="osmium\Cheat\cheat.hpp">
+      <Filter>osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Includings\custom_data_types.hpp">
+      <Filter>osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Cheat\Feature\feature.hpp">
+      <Filter>osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Memory\Hook\hook.hpp">
+      <Filter>osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Memory\Image_x64\image_x64.hpp">
+      <Filter>osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Memory\Image_x86\image_x86.hpp">
+      <Filter>osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Includings\modules.hpp">
+      <Filter>osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Overlay\overlay.hpp">
+      <Filter>osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Memory\Process\process.hpp">
+      <Filter>osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Memory\RegisterDumper\registercontext.hpp">
+      <Filter>osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Memory\SharedMemoryInstance\sharedmemoryinstance.hpp">
+      <Filter>osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Testing\test_cheat.hpp">
+      <Filter>osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Testing\test_overlay.hpp">
+      <Filter>osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.hpp">
+      <Filter>files</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.hpp">
+      <Filter>files</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.hpp">
+      <Filter>files</Filter>
+    </ClInclude>
+    <ClInclude Include="terraria_cheat.hpp">
+      <Filter>files\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="game_structs.hpp">
+      <Filter>files\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="entitylist.hpp">
+      <Filter>files\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="ft_disable_consume.hpp">
+      <Filter>files\cheat\features</Filter>
+    </ClInclude>
+    <ClInclude Include="ft_godmode.hpp">
+      <Filter>files\cheat\features</Filter>
+    </ClInclude>
+    <ClInclude Include="ft_key.hpp">
+      <Filter>files\cheat\features</Filter>
+    </ClInclude>
+    <ClInclude Include="ft_max_stat.hpp">
+      <Filter>files\cheat\features</Filter>
+    </ClInclude>
+    <ClInclude Include="ft_tp_enemies.hpp">
+      <Filter>files\cheat\features</Filter>
+    </ClInclude>
+    <ClInclude Include="ft_tp_npc.hpp">
+      <Filter>files\cheat\features</Filter>
+    </ClInclude>
+    <ClInclude Include="ft_weak_enemies.hpp">
+      <Filter>files\cheat\features</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
